@@ -1,0 +1,22 @@
+{
+  "name": "vscode-jest-bug",
+  "version": "1.0.0",
+  "description": "Example package",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "George Sykes",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^28.1.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "text",
+      "html",
+      "lcov"
+    ]
+  }
+}

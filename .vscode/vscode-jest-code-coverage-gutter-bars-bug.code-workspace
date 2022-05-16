@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"jest.coverageFormatter": "GutterFormatter",
+		"jest.autoRun": {
+			"jest.rootPath": "",
+			"jest.showCoverageOnLoad": true,
+			"jest.autoRun": {
+				"watch": true,
+				"onStartup": [
+					"all-tests"
+				]
+			},
+			"jest.coverageFormatter": "GutterFormatter",
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"Orta.vscode-jest"
+		]
+	}
+}
